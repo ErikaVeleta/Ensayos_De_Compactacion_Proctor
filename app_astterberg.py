@@ -12,9 +12,7 @@ st.write(w)
 IP=LL-LP
 IP=round(IP,3)
 IL=(w-LP)/LP
-IL=round(IL,3)
 IC=(LL-w)/IP
-IC=round(IL,3)
 cal=st.button ("Calcular")
 sr.write(cal)
 if cal<1:
