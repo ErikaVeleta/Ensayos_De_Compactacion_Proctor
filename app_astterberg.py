@@ -18,7 +18,7 @@ IC=round(IL,3)
 cal=st.button ("Calcular")
 sr.write(cal)
 if cal<1:
-  st.write("# El Índice de Plasticidad (IP) es:"IP,"%")
+  st.write("# El Índice de Plasticidad(IP) es:"IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
   st.write("# El Índice Líquido(IL) es:"IL,"%")
   st.write("# El Índice Consistencia(IC) es:"IC,"%")
