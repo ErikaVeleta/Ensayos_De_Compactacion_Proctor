@@ -17,7 +17,7 @@ cal=st.button ("Calcular")
 st.write(cal)
 cal=True
 while cal:
-if (cal<1):
+if cal==True:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
   IL=(w-LP)/LP
