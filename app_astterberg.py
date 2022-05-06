@@ -11,14 +11,14 @@ w=st.number_input("Escribe la Humedad Natural del suelo (%)")
 st.write(w)
 IP=LL-LP
 IP=round(IP,3)
-IL=(w-LP)/LP
-IC=(LL-w)/IP
 cal=st.button ("Calcular")
 sr.write(cal)
 if cal<1:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
+  IL=(w-LP)/LP
   st.write("# El Índice Líquido(IL) es:",IL,"%")
+  IC=(LL-w)/IP
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
 elif 1<cal<7:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
