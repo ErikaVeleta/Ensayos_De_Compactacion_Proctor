@@ -32,7 +32,7 @@ elif 7<cal<15:
   st.write("El material corresponde a los suelos medianamente plásticos")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-else cal>15:
+else:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos altamente plásticos")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
