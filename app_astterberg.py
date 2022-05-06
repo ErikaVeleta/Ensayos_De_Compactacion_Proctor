@@ -14,7 +14,7 @@ IP=round(IP,3)
 cal=st.button ("Calcular")
 st.write(cal)
 if cal<1:
-  st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
+  st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
   st.header("""
   CARACTERÍSTICAS:""")
@@ -24,12 +24,12 @@ if cal<1:
   st.write("4.Suave y sedoso al tacto.")
   st.write("5.Forman terrones fáciles de desagregar cuando están secos.")
   IL=(w-LP)/LP
-  st.write("# El Índice Líquido(IL) es:",IL,"%")
+  st.write("# El Índice Líquido (IL) es:",IL,"%")
   IC=(LL-w)/IP
-  st.write("# El Índice Consistencia(IC) es:",IC,"%")
+  st.write("# El Índice Consistencia (IC) es:",IC,"%")
   st.image("https://www.labsalaboratorio.com.mx/wp-content/uploads/2020/03/suelo-limoso.jpg")
 elif cal in range(1,7):
-  st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
+  st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos débilmente plásticos")
   st.header("""
   CARACTERÍSTICAS:""")
@@ -39,12 +39,12 @@ elif cal in range(1,7):
   st.write("4.Los suelos con caolinita como mineral de arcilla presentan un comportamiento normal en los ensayos.")
   st.write("5.El efecto del aumento de humedad sobre las propiedades del suelo generalmente, no es importante.")
   IL=(w-LP)/LP
-  st.write("# El Índice Líquido(IL) es:",IL,"%")
+  st.write("# El Índice Líquido (IL) es:",IL,"%")
   IC=(LL-w)/IP
-  st.write("# El Índice Consistencia(IC) es:",IC,"%")
+  st.write("# El Índice Consistencia (IC) es:",IC,"%")
   st.image("https://outletminero.org/content/images/2019/12/Caol-n-3.jpg")
 elif cal in range (7,15):
-  st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
+  st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos medianamente plásticos")
   st.header("""
   CARACTERÍSTICAS:""")
@@ -53,12 +53,12 @@ elif cal in range (7,15):
   st.write("3.Son dioctaédricas (presencia en la capa octaédrica de cationes trivalentes).")
   st.write("4.Posibilidad de retener y liberar iones que pueden ser utilizados por las plantas para su alimento.")
   IL=(w-LP)/LP
-  st.write("# El Índice Líquido(IL) es:",IL,"%")
+  st.write("# El Índice Líquido (IL) es:",IL,"%")
   IC=(LL-w)/IP
-  st.write("# El Índice Consistencia(IC) es:",IC,"%")
+  st.write("# El Índice Consistencia (IC) es:",IC,"%")
   st.image("https://http2.mlstatic.com/D_NQ_NP_688137-MLM27875076928_072018-O.jpg")
 else:
-  st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
+  st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos altamente plásticos")
   st.header("""
   CARACTERÍSTICAS:""")
@@ -68,7 +68,7 @@ else:
   st.write("4.El efecto del aumento de humedad puede resultar en una disminución importante de la resistencia al cortante.")
   st.write("5.La Montmorillonita tiene un alto nivel de reacción con el cemento y la cal.")
   IL=(w-LP)/LP
-  st.write("# El Índice Líquido(IL) es:",IL,"%")
+  st.write("# El Índice Líquido (IL) es:",IL,"%")
   IC=(LL-w)/IP
-  st.write("# El Índice Consistencia(IC) es:",IC,"%")
+  st.write("# El Índice Consistencia (IC) es:",IC,"%")
   st.image("https://image.made-in-china.com/155f0j00fUvYPMzrjpgR/High-Quality-Montmorillonite-Bentonite-Clay-for-Metallurgy.jpg")
