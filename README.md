@@ -1,2 +1,2 @@
-# Ensayos_De_Compactación_Proctor
-Utilizados en el estudio de compactación de suelos para la construcción de terraplenes y otras obras de tierra.
+# Estudio_Del_Suelo
+Utilizado para explicar el límite líquido y el índice de plasticidad de las pruebas de un suelo.
