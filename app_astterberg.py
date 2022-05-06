@@ -1,7 +1,6 @@
 import streamlit as st
 st.slidebar.title ("Software para el estudio de la composición del suelo fino")
 INTRODUCCIÓN
-
 st.image("https://concepto.de/wp-content/uploads/2021/11/tipos-de-suelos-e1637359333414.jpg")
 LL=st.number_input("Escribe el Límite Líquido (%)",0)
 st.write(LL)
@@ -37,5 +36,3 @@ else:
   st.write("El material corresponde a los suelos altamente plásticos")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-  
-  
