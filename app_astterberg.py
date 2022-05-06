@@ -22,12 +22,12 @@ if (cal<1):
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   IC=(LL-w)/IP
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-elif (1<cal<7):
+elif cal in range(1,7):
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos débilmente plásticos")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-elif (7<cal<15):
+elif cal in range (7,15):
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos medianamente plásticos")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
