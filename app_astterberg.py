@@ -13,7 +13,8 @@ IP=LL-LP
 IP=round(IP,3)
 cal=st.button ("Calcular")
 sr.write(cal)
-if cal<1:
+if cal==True:
+elif cal<1:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
   IL=(w-LP)/LP
