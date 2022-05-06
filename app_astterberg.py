@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Software para el estudio de la composición del suelo fino")
+st.title("Software para el estudio del índice de composición del suelo fino")
 st.header("""
 INTRODUCCIÓN:""")
 st.image("https://concepto.de/wp-content/uploads/2021/11/tipos-de-suelos-e1637359333414.jpg")
