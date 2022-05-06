@@ -1,5 +1,5 @@
 import streamlit as st
-st.slidebar.title ("Software para el estudio de la composición del suelo fino")
+st.title ("Software para el estudio de la composición del suelo fino")
 INTRODUCCIÓN
 st.image("https://concepto.de/wp-content/uploads/2021/11/tipos-de-suelos-e1637359333414.jpg")
 LL=st.number_input("Escribe el Límite Líquido (%)",0)
