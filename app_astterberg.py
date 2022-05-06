@@ -2,7 +2,7 @@ import streamlit as st
 st.title("Software para el estudio del índice de composición del suelo fino")
 st.header("""
 INTRODUCCIÓN:
-La presencia del agua en los vacíos de un suelo afecta el comportamiento de los suelos finos, por lo cual es importante conocer su cantidad. Si conocemos el contenido de agua del suelo relativo a los límites de Atterberg tendremos una idea acerca de su comportamiento en el área de ingeniería""")
+La presencia del agua en los vacíos de un suelo afecta el comportamiento de los suelos finos, por lo cual es importante conocer su cantidad. Si conocemos el contenido de agua del suelo relativo a los límites de Atterberg tendremos una idea acerca de su comportamiento en el área de ingeniería.""")
 st.image("https://concepto.de/wp-content/uploads/2021/11/tipos-de-suelos-e1637359333414.jpg")
 LL=st.number_input("Escribe el Límite Líquido (%)")
 st.write(LL)
