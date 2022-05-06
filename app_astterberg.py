@@ -27,7 +27,7 @@ if cal<1:
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   IC=(LL-w)/IP
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-  st.image(https://www.labsalaboratorio.com.mx/wp-content/uploads/2020/03/suelo-limoso.jpg)
+  st.image("https://www.labsalaboratorio.com.mx/wp-content/uploads/2020/03/suelo-limoso.jpg")
 elif cal in range(1,7):
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos débilmente plásticos")
@@ -56,7 +56,7 @@ elif cal in range (7,15):
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   IC=(LL-w)/IP
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-  st.image(https://http2.mlstatic.com/D_NQ_NP_688137-MLM27875076928_072018-O.jpg)
+  st.image("https://http2.mlstatic.com/D_NQ_NP_688137-MLM27875076928_072018-O.jpg")
 else:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos altamente plásticos")
@@ -71,4 +71,4 @@ else:
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   IC=(LL-w)/IP
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-  st.image(https://image.made-in-china.com/155f0j00fUvYPMzrjpgR/High-Quality-Montmorillonite-Bentonite-Clay-for-Metallurgy.jpg)
+  st.image("https://image.made-in-china.com/155f0j00fUvYPMzrjpgR/High-Quality-Montmorillonite-Bentonite-Clay-for-Metallurgy.jpg")
