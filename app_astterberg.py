@@ -22,12 +22,12 @@ if cal<1:
   st.write("El material corresponde a los suelos friables o desmenuzables")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-elif cal>1&&cal<7:
+elif 1<cal<7:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos débilmente plásticos")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
   st.write("# El Índice Consistencia(IC) es:",IC,"%")
-elif cal>7&&cal<15:
+elif 7<cal<15:
   st.write("# El Índice de Plasticidad(IP) es:",IP,"%")
   st.write("El material corresponde a los suelos medianamente plásticos")
   st.write("# El Índice Líquido(IL) es:",IL,"%")
