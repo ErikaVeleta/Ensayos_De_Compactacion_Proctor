@@ -8,13 +8,13 @@ LL=st.number_input("Escribe el Límite Líquido (%)")
 st.write(LL)
 LP=st.number_input("Escribe el Límite Plástico (%)")
 st.write(LP)
-w=st.number_input("Escribe la Humedad Natural del suelo (%)")
-st.write(w)
+W=st.number_input("Escribe la Humedad Natural del suelo (%)")
+st.write(W)
 IP=LL-LP
 IP=round(IP,3)
-IL=(w-LP)/LP
+IL=(W-LP)/LP
 IL=round(IL,3)
-IC=(LL-w)/IP
+IC=(LL-W)/IP
 IC=round(IC,3)
 cal=st.button ("Calcular")
 if (IP<1):
