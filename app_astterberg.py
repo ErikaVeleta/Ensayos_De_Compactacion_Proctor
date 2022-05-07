@@ -14,7 +14,6 @@ IP=LL-LP
 IP=round(IP,3)
 IL=(w-LP)/LP
 IL=round(IL,3)
-y=
 IC=(LL-w)/IP
 IC=round(IC,3)
 cal=st.button ("Calcular")
