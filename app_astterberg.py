@@ -4,11 +4,11 @@ st.header("""
 INTRODUCCIÓN:
 La presencia del agua en los vacíos de un suelo afecta el comportamiento de los suelos finos, por lo cual es importante conocer su cantidad. Si conocemos el contenido de agua del suelo relativo a los límites de Atterberg tendremos una idea acerca de su comportamiento en el área de ingeniería.""")
 st.image("https://concepto.de/wp-content/uploads/2021/11/tipos-de-suelos-e1637359333414.jpg")
-LL=st.number_input("Escribe el Límite Líquido (%)",5)
+LL=st.number_input("Escribe el Límite Líquido (%)",5.00)
 st.write(LL)
-LP=st.number_input("Escribe el Límite Plástico (%)",1)
+LP=st.number_input("Escribe el Límite Plástico (%)",1.00)
 st.write(LP)
-W=st.number_input("Escribe la Humedad Natural del suelo (%)",10)
+W=st.number_input("Escribe la Humedad Natural del suelo (%)",10.00)
 st.write(W)
 IP=LL-LP
 IP=round(IP,3)
