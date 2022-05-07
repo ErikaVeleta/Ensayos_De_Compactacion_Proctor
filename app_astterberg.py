@@ -46,7 +46,7 @@ else:
     st.write("# El Índice Consistencia (IC) es:",IC,"%")
     st.image("https://outletminero.org/content/images/2019/12/Caol-n-3.jpg")
   else:
-    if (cal>=7) and (cal<15):
+    if (IP>=7) and (IP<15):
       st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
       st.write("El material corresponde a los suelos medianamente plásticos")
       st.header("""
