@@ -11,7 +11,7 @@ st.write(LP)
 w=st.number_input("Escribe la Humedad Natural del suelo (%)")
 st.write(w)
 IP=LL-LP
-IP=round(IP,3)
+#IP=round(IP,3)
 cal=st.button ("Calcular")
 #st.write(cal).
 if cal<1:
