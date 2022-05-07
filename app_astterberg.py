@@ -11,9 +11,8 @@ st.write(LP)
 w=st.number_input("Escribe la Humedad Natural del suelo (%)")
 st.write(w)
 IP=LL-LP
-#IP=round(IP,3)
+IP=round(IP,3)
 cal=st.button ("Calcular")
-st.write(cal)
 if (IP<1):
   st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
