@@ -12,7 +12,7 @@ w=st.number_input("Escribe la Humedad Natural del suelo (%)")
 st.write(w)
 IP=LL-LP
 #IP=round(IP,3)
-IP=st.button ("Calcular")
+cal=st.button ("Calcular")
 #st.write(cal).
 if (IP<1):
   st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
