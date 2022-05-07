@@ -14,7 +14,7 @@ IP=LL-LP
 #IP=round(IP,3)
 cal=st.button ("Calcular")
 #st.write(cal).
-if cal<1:
+if (cal<1):
   st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
   st.header("""
@@ -29,7 +29,7 @@ if cal<1:
   IC=(LL-w)/IP
   st.write("# El Índice Consistencia (IC) es:",IC,"%")
   st.image("https://www.labsalaboratorio.com.mx/wp-content/uploads/2020/03/suelo-limoso.jpg")
-elif cal in range(1,7):
+elif (cal>=1 and cal<7):
   st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos débilmente plásticos")
   st.header("""
@@ -44,7 +44,7 @@ elif cal in range(1,7):
   IC=(LL-w)/IP
   st.write("# El Índice Consistencia (IC) es:",IC,"%")
   st.image("https://outletminero.org/content/images/2019/12/Caol-n-3.jpg")
-elif cal in range (7,15):
+elif (cal>=7 and cal<15):
   st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos medianamente plásticos")
   st.header("""
