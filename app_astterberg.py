@@ -12,9 +12,9 @@ w=st.number_input("Escribe la Humedad Natural del suelo (%)")
 st.write(w)
 IP=LL-LP
 #IP=round(IP,3)
-cal=st.button ("Calcular")
+IP=st.button ("Calcular")
 #st.write(cal).
-if (cal<1):
+if (IP<1):
   st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
   st.write("El material corresponde a los suelos friables o desmenuzables")
   st.header("""
@@ -30,7 +30,7 @@ if (cal<1):
   st.write("# El Índice Consistencia (IC) es:",IC,"%")
   st.image("https://www.labsalaboratorio.com.mx/wp-content/uploads/2020/03/suelo-limoso.jpg")
 else:
-  if (cal>=1) and (cal<7):
+  if (IP>=1) and (IP<7):
     st.write("# El Índice de Plasticidad (IP) es:",IP,"%")
     st.write("El material corresponde a los suelos débilmente plásticos")
     st.header("""
